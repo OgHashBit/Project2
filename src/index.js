@@ -58,12 +58,12 @@ function Content() {
       <Block factor={1} offset={0}>
         <Block factor={1.2}>
           <Text left size={w * 0.15} position={[-w / 3.2, 0.5, -1]} color="#d40749">
-            MOKSHA
+            DiamondBIT
           </Text>
         </Block>
         <Block factor={1.0}>
           <Html className="bottom-left" style={{ color: "white" }} position={[-canvasWidth / 2, -canvasHeight / 2, 0]}>
-            It was the year 2076.{mobile ? <br /> : " "}The substance had arrived.
+            Diamond Evolution is here!{mobile ? <br /> : " "}BUY NOW ON RARIBLE!
           </Html>
         </Block>
       </Block>
@@ -73,14 +73,13 @@ function Content() {
       {state.paragraphs.map((props, index) => (
         <Paragraph key={index} index={index} {...props} image={images[index]} />
       ))}
-      {state.stripes.map(({ offset, color, height }, index) => (
-        <Block key={index} factor={-1.5} offset={offset}>
-          <Plane args={[50, height, 32, 32]} shift={-4} color={color} rotation={[0, 0, Math.PI / 8]} position={[0, 0, -10]} />
-        </Block>
-      ))}
-      <Block factor={1.25} offset={8}>
-        <Html style={{ color: "white" }} className="bottom-left" position={[-canvasWidth / 2, -canvasHeight / 2, 0]}>
-          Culture is not your friend.
+      {state.stripes.map(({ offset, color, height }, 
+DiamondBIT is bringing blockchain users yet another digital asset.
+Each original DiamondBIT NFTs is digital version of real diamond,
+so holders can claim their real diamond in few clicks.
+All minted diamonds will be unique by shape,color,carat and clarity 
+but we will always provide clean cut and natural diamonds. 
+In future USER will be able change shape, color and carat to mint own diamond.
         </Html>
       </Block>
     </>
