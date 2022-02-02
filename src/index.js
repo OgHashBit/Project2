@@ -74,12 +74,7 @@ function Content() {
         <Paragraph key={index} index={index} {...props} image={images[index]} />
       ))}
       {state.stripes.map(({ offset, color, height }, 
-DiamondBIT is bringing blockchain users yet another digital asset.
-Each original DiamondBIT NFTs is digital version of real diamond,
-so holders can claim their real diamond in few clicks.
-All minted diamonds will be unique by shape,color,carat and clarity 
-but we will always provide clean cut and natural diamonds. 
-In future USER will be able change shape, color and carat to mint own diamond.
+          Get yours NFT and become proud diamond owner!
         </Html>
       </Block>
     </>
